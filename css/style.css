@@ -1,0 +1,198 @@
+*{
+    margin-left: 0.312rem;
+}
+@font-face {
+    font-family: Chrono;
+    src: url("../assets/Tipografia/ChronoType.ttf");
+}
+.paraNavegar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../assets/pagina/home/header.png);
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: Chrono;
+    color: white;
+    
+    ul{
+        display: flex;
+        align-items: center;
+    }
+    ul li{
+        margin-right: 1.25rem;
+
+        &:last-child{
+            margin-right: 0px;
+        }
+    }
+}
+
+.tituloPrincipal{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(6,1fr);
+    justify-items: center;
+    align-self: stretch;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    width: 30.5rem;
+    height: 30.5rem;
+    background-image: url(../assets/pagina/home/main.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    font-family: Chrono;
+    h1{
+        font-size: 3.75rem;
+        grid-column-start: 3;
+        grid-row-start: 1;
+    }
+        h2{
+            font-size: 2.75rem;
+            text-align: center;
+            grid-column-start: 3;
+            grid-row-start: 3;
+        }
+        h3{
+            font-size: 2.75rem;
+            text-align: center;
+            grid-column-start: 3;
+            grid-row-start: 4;
+        }
+        img{
+            width: 55px;
+            height: 55px;
+            grid-column-start: 3;
+            grid-row-start: 2;
+
+}
+}
+
+.personajes{
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+        img{
+            width: 10rem;
+        }
+        img{
+            width: 10rem;
+        }
+        img{
+            width: 10rem;
+        }
+}
+
+.pjChrono button{
+    padding: 15px 15px 15px 15px;
+    background-color: red;
+    font-family: Chrono;
+    color: white;
+}
+
+.pjAyla button{
+    padding: 15px 15px 15px 15px;
+    background-color: red;
+    font-family: Chrono;
+    color: white;
+}
+
+
+.pjFrog button{
+    padding: 15px 15px 15px 15px;
+    background-color: red;
+    font-family: Chrono;
+    color: white;
+}
+.casiFinalPagina{
+    background-image:url(../assets/pagina/home/footer-fondo.png);
+    background-size: contain;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.875rem;
+    font-family: Chrono;
+}
+
+.Footer{
+    width: 100%;
+    height: 100px;
+    background-image: url(../assets/pagina/fondo.jpg);
+    background-size: contain;
+    font-family: Chrono;
+    font-size: 60px;
+    text-align:center;
+    text-decoration: underline;
+    color: white;
+    margin: .625rem;
+}
+
+.partePrincipal{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(6,1fr);
+    width: 100%;
+    height: 31.25rem;
+    background-image: url(../assets/pagina/media/chrono-fondo.jpg);
+    background-size: cover;
+    text-align:center;
+    color: rgb(0, 0, 0);
+    font-family: Chrono;
+    h1{
+        text-transform: capitalize;
+        font-size: 6.25rem;
+        text-align: center;
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 3;
+        grid-row-end: 4;;
+    }
+}   
+
+.tituloPrincipal2{
+    width: 35.5rem;
+    height: 35.5rem;
+    background-image: url(../assets/pagina/ratings/header_chrono.png);
+    background-repeat: no-repeat;
+    font-family: Chrono;
+    font-size: 30px;
+    text-align: center;
+}
+
+.opinionIGN{
+    width: 50px;
+    height: 50px;
+    font-family: Chrono;
+}
+
+.opinionEURO{
+    width: 50px;
+    height: 50px;
+    font-family: Chrono;
+}
+
+.tituloPrincipal3{
+    width: 500px;
+    height: 500px;
+    background-image: url(../assets/pagina/draw/frog-fondo.jpeg);
+    background-position: contain;
+    background-size: cover;
+    text-align: center;
+    font-family: Chrono;
+    font-size: 30px;
+}
+
+.rulesOrder{
+    width: 500px;
+    height: 500px;
+    font-family: Chrono;
+    font-size: 30px;
+}
+
+.tituloPrincipal4{
+    font-family: Chrono;
+    font-size: 50px;
+}

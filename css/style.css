@@ -155,8 +155,6 @@
 .tituloPrincipal2{
     width: 35.5rem;
     height: 35.5rem;
-    background-image: url(../assets/pagina/ratings/header_chrono.png);
-    background-repeat: no-repeat;
     font-family: Chrono;
     font-size: 30px;
     text-align: center;
@@ -185,12 +183,6 @@
     font-size: 30px;
 }
 
-.rulesOrder{
-    width: 500px;
-    height: 500px;
-    font-family: Chrono;
-    font-size: 30px;
-}
 
 .tituloPrincipal4{
     font-family: Chrono;
